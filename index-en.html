@@ -1,0 +1,1015 @@
+<!-- The images used in the Flag of Brazil and UK are under license:
+	Copyright 2020 Twitter, Inc and other contributors
+Code licensed under the MIT License: http://opensource.org/licenses/MIT
+Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Source: https://twemoji.twitter.com/
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset='UTF-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta name='description'
+		content='Tool for dataset evaluation, automates the process of verifying the adherence of datasets to the FAIR Principles. Its use is simple and intuitive.' />
+	<meta name="keywords" content="FAIR Principles, FAIR Brazil, FAIRDataBR">
+	<meta property="og:url" content="https://wrco.ufpb.br/fair" />
+	<meta property="og:image" content="https://wrco.ufpb.br/fair/img/TimbuFairDataBR-100.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'
+		integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous'>
+	<script src='code091021.js'></script>
+	<script src='qrjs2.js'></script>
+	<script src='acessibilidade010821.js'></script>
+	<title>FairDataBR</title>
+	<link rel="stylesheet" href='estilo040621.css'>
+	<link rel="stylesheet" href='barra210521.css'>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index-en.html' hreflang="en">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="pt">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="pt-br">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="x-default">
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+		</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+		crossorigin="anonymous"></script>
+	<a class="visually-hidden-focusable link-primary" href='#content'>Skip navigation</a>
+	<header class="d-flex justify-content-center noPrint">
+		<div>
+			<nav id='menu' class='navbar navbar-expand-lg navbar-light'>
+				<div class="container">
+					<a class='navbar-brand' href='index-en.html'><img id="brandTimbu" src='img/HorizontalFairDataBR.svg'
+							alt='FairDataBR logo' /><span class="visually-hidden">FairDataBR</span></a>
+					<button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav'
+						aria-controls='navbarNav' aria-expanded='false' aria-label="Toggle navigation"
+						name='Toggle navigation'>
+						<span class='navbar-toggler-icon' role='presentation'></span>
+					</button>
+					<div class='collapse navbar-collapse' id='navbarNav'>
+						<ul class='navbar-nav'>
+							<li class='nav-item'>
+								<a class="nav-link" href='fair+-en.html'
+									title='Versão Estendidas com mais perguntas'>FairDataBR<sup>+</sup></a>
+							</li>
+							<li class='nav-item'>
+								<a class="nav-link" href='glossario.html'
+									title='Glossário para você não ficar com nenhuma dúvida'>Glossary</a>
+							</li>
+							<li class='nav-item'>
+								<a accesskey='o' class="nav-link" href='accessibility.html'
+									title='Accessibility and Shortcuts'>Accessibility
+								</a>
+							</li>
+							<li class='nav-item flag'>
+								<a class='nav-link' href='index-en.html' title="Switch to English"><img
+										src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg" class="g-image"
+										alt='Bandeira UK' /><span class="visually-hidden">Mudar
+										para o idioma Inglês</span></a>
+							</li>
+							<li class='nav-item flag'>
+								<a class='nav-link' href='index.html' title="Mudar para o idioma Brasileiro"><img
+										src="https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f7.svg" class="g-image"
+										alt='Bandeira brasileira' /><span class="visually-hidden"><span
+											class="visually-hidden">Mudar para o idioma Brasileiro</span></span></a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' href='mailto:datafairbr@gmail.com'
+									title='Envie suas sugestões'>Contato</a>
+							</li>
+							<li class='nav-item form-check form-switch'>
+								<input class="form-check-input" type='checkbox' id='flexSwitchCheckDefault'
+									title='Alternar entre modo normal e dark'>
+								<label class="form-check-label visually-hidden" for='flexSwitchCheckDefault'>Alternar
+									entre modo normal e dark</label>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='diminuir tamanho da fonte'
+									aria-label='diminuir tamanho da fonte' onclick="mudarTamFonte('12px','inherit')"
+									href='javascript:void(0);'>-</a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='restaurar tamanho da fonte'
+									aria-label='restaurar tamanho da fonte' onclick="mudarTamFonte('inherit','inherit')"
+									href='javascript:void(0);'>A</a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='aumentar tamanho da fonte'
+									aria-label='aumentar tamanho da fonte' onclick="mudarTamFonte('24px','18px')"
+									href='javascript:void(0);'>+</a>
+							</li>
+						</ul>
+
+						<a class="nav-link" target="_blank" href='https://github.com/FairDataBR/FairDataBR'
+							title='GitHub'><img id="gitHub" src="img/GitHub_Logo.png" class="g-image"
+								alt='Acessar GitHub do Projeto' /><span class="visually-hidden">Acessar GitHub do
+								Projeto</span></a>
+
+					</div>
+				</div>
+			</nav>
+		</div>
+
+	</header>
+	<main class='noPrint' id='content'>
+		<div>
+			<div class="texto">
+				<p>FairDataBR: a tool for datasets evaluation</p>
+			</div>
+		</div>
+		<section class='principal'>
+			<div class='text-center timbu'>
+				<img id='timbu-def-en' src='img/HorizontalFairDataBR-Negativo.png'
+					alt="logo do site contendo um timbu" />
+			</div>
+			<div class='container introduction'>
+				<div class="row">
+					<div class="col">
+						<p>The tool FairDataBR, aimed to evaluate data sets, was written from the perception of the need
+							to develop a software application that contributed to the automation process of verifying
+							the adherence of data sets to the FAIR Principles. The tool was designed by researchers from
+							the Federal University of Paraíba (PPGCI / MPGOA - UFPB) and it is characterized by being
+							simple and intuitive to use.
+						</p>
+					</div>
+					<div class="col">
+						<p>The FAIR principles idea emerged from the work of a diversified group of people who saw the
+							immediate need to improve the infrastructure to support the sharing of research data and its
+							subsequent reuse. Thus, based on these premises, a set of principles was developed to serve
+							as guidelines for all who wish to share and enhance the reuse of research data (WILKINSON et
+							al., 2016).</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class='container'>
+				<H1>FAIR PRINCIPLES</H1>
+				<p>The FAIR Principles are an acronym for <strong>F</strong>indable, <strong>A</strong>ccessible,
+					<strong>I</strong>nteroperable and <strong>R</strong>eusable. On the pioneer publication of a
+					scientific paper on these principles, Wilkinson et al. (2016) stated that to research data be under
+					these principles, they must follow the following guidelines:
+				</p>
+			</div>
+			<div class='container-fluid'>
+				<div class="row">
+					<div class="column">
+						<div class="card findable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">To be<br> Findable:</h5>
+								<div class="card-text">
+									<ol>
+										<li>F1. (Meta)data are assigned a globally unique and persistent identifier.
+										</li>
+										<li>F2. Data are described with rich metadata (defined by R1 below).</li>
+										<li>F3. metadata clearly and explicitly include the identifier of the data
+											it
+											describes.</li>
+										<li>F4. (Meta)data are registered or indexed in a searchable resource.</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card acessible" style="width: 18rem">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">To be<br> Accessible:</h5>
+								<div class="card-text">
+									<ol>
+										<li>A1. (Meta)data are retrievable by their identifier using a standardized
+											communications
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='Set of standards that enable communication and data transfer among electronic devices'>
+												protocol</a>.
+											<ol>
+												<li>A1.1. The protocol is open, free, and universally implementable.
+												</li>
+												<li>A1.2. the protocol allows for an authentication and
+													authorization
+													procedure, where
+													necessary.</li>
+											</ol>
+										</li>
+										<li>A2. metadata are accessible, even when the data are no longer available.
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card interoperable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">To be<br> Interoperable:</h5>
+								<div class="card-text">
+									<ol>
+										<li>I1. (Meta)data use a formal, accessible, shared, and broadly applicable
+											language
+											for knowledge
+											representation.</li>
+										<li>I2. (Meta)data use vocabularies that follow FAIR principles.</li>
+										<li>I3. (Meta)data include qualified references to other (meta)data.</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card reusable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">To be<br> Reusable:</h5>
+								<div class="card-text">
+									<ol>
+										<li>R1. meta(data) are richly described with a plurality of accurate and
+											relevant
+											attributes.
+											<ol>
+												<li>R1.1. (Meta)data are released with a clear and accessible data
+													usage
+													license.</li>
+												<li>R1.2. (Meta)data are associated with detailed
+													<a href='javascript:void(0);' class='link-primary tooltiptext'
+														role='link' data-bs-toggle='tooltip' data-bs-html='true'
+														data-bs-placement='auto'
+														title='Information concerning (meta)data ownership chronology, custody or location'>
+														provenance</a>.
+												</li>
+												<li>R1.3. (Meta)data meet
+													<a href='javascript:void(0);' class='link-primary tooltiptext'
+														role='link' data-bs-toggle='tooltip' data-bs-html='true'
+														data-bs-placement='auto'
+														title='Field of activity in which knowledge and experiences about certain subjects, interests and needs are shared'>
+														domain</a>-relevant community standards.
+												</li>
+											</ol>
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<section id='aval' class='avaliacaopadrao-br'>
+		<div class='container'>
+			<div>
+				<p id='textqrcode'>To continue the assessment, read the QRCode.</p>
+				<div id='qrc'>
+				</div>
+				<a id="11yQrcode" class="visually-hidden link-primary" href='javascript:void(0);'>Abra uma nova
+					janela
+					com as
+					respostas já preenchidas, tem a mesma função do qrcode. Basta copiar a url da nova aba e assim
+					poderá continuar de onde parou ou compartilhar suas respostas.</a>
+			</div>
+			<div class='obrigatorio' aria-hidden='true' dir='auto'>*Obrigatório</div>
+			<form class='form-check' onsubmit='return false' method='post' id='fair' aria-label='Avaliação Fair'>
+				<fieldset id="formfair">
+					<legend>Avaliação Fair</legend>
+					<fieldset class='grey findable' form='fair'>
+						<legend>FINDABLE PRINCIPLE</legend>
+						<fieldset class='perguntas' id='f1' form='fair'>
+							<legend>F1. Do (meta)data have a unique, global and persistent identifier?
+								<a class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#3"
+									aria-label="referência"><sup>3</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sf1' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='f1'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1a" name='f1' value='10' required>
+									<label class="form-check-label" for="f1a">Persistent Identifier</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1b" name='f1' value='7' required>
+									<label class="form-check-label" for="f1b">Web Address</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1c" name='f1' value='4' required>
+									<label class="form-check-label" for="f1c">Local Identifier</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1d" name='f1' value='1' required>
+									<label class="form-check-label" for="f1d">No Identifier</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' id='f2' form='fair'>
+							<legend>F2. Are data described with rich metadata?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#3"
+									aria-label="referência"><sup>3</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<span class='obrigatorio' id='sf2' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='f2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2a" name='f2' value='10' required>
+									<label class="form-check-label" for="f2a">Rich metadata</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2b" name='f2' value='7' required>
+									<label class="form-check-label" for="f2b">Structured metadata</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2c" name='f2' value='4' required>
+									<label class="form-check-label" for="f2c">Simple metadata</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2d" name='f2' value='1' required>
+									<label class="form-check-label" for="f2d">No metadata</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tf3' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador" e responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='f3' form='fair'>
+								<legend>F3. metadata clearly and explicitly include the identifier of the data they
+									describe?<a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sf3' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='f3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f3a" name='f3' value='10'>
+										<label class="form-check-label" for="f3a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f3b" name='f3' value='1'>
+										<label class="form-check-label" for="f3b">No</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='tf4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador"'>
+							<fieldset class='perguntas' id='f4' form='fair'>
+								<legend>F4. Are (meta)data registered or indexed in a searchable resource? <a
+										class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sf4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='f4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f4a" name='f4' value='10'>
+										<label class="form-check-label" for="f4a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f4b" name='f4' value='1'>
+										<label class="form-check-label" for="f4b">No</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' id='f5' form='fair'>
+							<legend>F5. Are (meta)data published in a repository? <a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<span class='obrigatorio' id='sf5' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='f5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5a" name='f5' required value='10'>
+									<label class="form-check-label" for="f5a">General repository</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5b" name='f5' required value='7'>
+									<label class="form-check-label" for="f5b">
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Field of activity in which knowledge and experiences about certain subjects, interests and needs are shared'>
+											Domain</a> specific</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5c" name='f5' required value='4'>
+									<label class="form-check-label" for="f5c">Institutional repository</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5d" name='f5' required value='1'>
+									<label class="form-check-label" for="f5d">Not published in a repository</label>
+								</li>
+							</ul>
+						</fieldset>
+					</fieldset>
+					<fieldset class='grey acessible' form='fair'>
+						<legend>ACCESSIBLE PRINCIPLE</legend>
+						<div id='ta1' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='a1' form='fair'>
+								<legend>A1. How accessible are the (meta)data?<a class="link-primary"
+										href="referencias.html#2" aria-label="referência"><sup>2</sup></a>
+									<span class='obrigatorio' id='sa1' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a1'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1a" name='a1' value='10'>
+										<label class="form-check-label" for="a1a">Accessible to the Public</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1b" name='a1' value='7'>
+										<label class="form-check-label" for="a1b">
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='Period of time (usually temporary) in which the contents of a dataset remain confidential, without permission to be published or made available for public access'>
+												Embargo</a> access</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1c" name='a1' value='4'>
+										<label class="form-check-label" for="a1c">Access to data only or metadata
+											only</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1d" name='a1' value='1'>
+										<label class="form-check-label" for="a1d">Without access to data and
+											metadata</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='a2'>
+							<legend>A2. Are the (meta)data available without the need for intermediation of
+								specialized
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Set of standards that enable communication and data transfer among electronic devices'>
+									protocols</a>
+								or tools from the moment access is allowed?<a class="link-primary"
+									href="referencias.html#2" aria-label="referência"><sup>2</sup></a>
+								<span class='obrigatorio' id='sa2' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='a2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2a" name='a2' required value='10'>
+									<label class="form-check-label" for="a2a">Standard
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Conjunto de m&eacute;todos empregados para a integra&ccedil;&atilde;o de sistemas e comunica&ccedil;&atilde;o entre aplica&ccedil;&otilde;es diferentes'>
+											Web Service</a>
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Application Programming Interface (API) – Set of functions that can be used to interact with software, composing an interface that works as a standard for building applications'>
+											API</a>.
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2b" name='a2' required value='8'>
+									<label class="form-check-label" for="a2b">Nonstandard Web Service</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2c" name='a2' required value='4'>
+									<label class="form-check-label" for="a2c">Online file download</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2d" name='a2' required value='2'>
+									<label class="form-check-label" for="a2d">Through individual agreement</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2e" name='a2' required value='1'>
+									<label class="form-check-label" for="a2e">No access to (meta)data</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ta3' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador" e responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='a3' form='fair'>
+								<legend>A3. Is it possible to access the (meta)data by the provided identifier?<a
+										class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sa3' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a3a" name='a3' value='10'>
+										<label class="form-check-label" for="a3a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a3b" name='a3' value='1'>
+										<label class="form-check-label" for="a3b">No</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='ta4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' form='fair' id='a4'>
+								<legend>A4. Are metadata accessible, even when the data are no longer available?<a
+										class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#3"
+										aria-label="referência"><sup>3</sup></a>
+									<span class='obrigatorio' id='sa4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4a" name='a4' value='10'>
+										<label class="form-check-label" for="a4a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4b" name='a4' value='1'>
+										<label class="form-check-label" for="a4b">No</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4c" name='a4' value='0'>
+										<label class="form-check-label" for="a4c">Does not apply</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='a5'>
+							<legend>A5. Is the
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Set of standards that enable communication and data transfer among electronic devices'>
+									protocol</a>
+								(e.g.:
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Hypertext Transfer Protocol (HTTP) – Transfer protocol that allows viewing contents from a URL. It defines the rules for exchanging information among the servers that host websites and clients'>
+									HTTP</a>,
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Security Assertion Markup Language (SAML) - Is an open standard for exchanging authentication and authorization data between parties, specifically, between an identity provider and a service provider'>
+									SAML</a>,
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Open Archives Initiative Protocol for metadata Harvesting (OAI-PMH) – Interoperability protocol that enables metadata sharing among repositories through metadata collection in a process known as harvesting'>
+									OAI-PMH)</a>
+								open, free and universally implementable?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sa5' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='a5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a5a" name='a5' required value='10'>
+									<label class="form-check-label" for="a5a">Yes</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a5b" name='a5' required value='1'>
+									<label class="form-check-label" for="a5b">No</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ta7' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta A1 com uma resposta diferente de "Sem acesso a dados ou metadados"'>
+							<fieldset class='perguntas' id='a7' form='fair'>
+								<legend> A7. Is it possible to download the (meta)data sets?<a class="link-primary"
+										href="referencias.html#2" aria-label="referência"><sup>2</sup></a>
+									<span class='obrigatorio' id='sa7' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a7'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a7a" name='a7' value='10'>
+										<label class="form-check-label" for="a7a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a7b" name='a7' value='1'>
+										<label class="form-check-label" for="a7b">No</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<fieldset class='grey interoperable' form='fair'>
+						<legend>INTEROPERABLE PRINCIPLE</legend>
+						<fieldset class='perguntas' form='fair' id='i1'>
+							<legend>I1. Are (meta)data sets available in preferred formats?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<span class='obrigatorio' id='si1' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='i1'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i1a" name='i1' required value='10'>
+									<label class="form-check-label" for="i1a">Yes</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i1b" name='i1' required value='1'>
+									<label class="form-check-label" for="i1b">No</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' form='fair' id='i2'>
+							<legend>I2. Are data sets structured from a metadata schema or community-approved data
+								models?<a class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a><span class='obrigatorio' id='si2'
+									role='presentation' aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='i2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2a" name='i2' required value='10'>
+									<label class="form-check-label" for="i2a">Standard Community Schema</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2b" name='i2' required value='5'>
+									<label class="form-check-label" for="i2b">Explicit Schema</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2c" name='i2' required value='1'>
+									<label class="form-check-label" for="i2c">Non-formalized Schema</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ti3' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='i3' form='fair'>
+								<legend>I3. Does (meta)data include qualified references to other (meta)data? <a
+										class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#2"
+										aria-label="referência"><sup>2</sup></a>
+									<a class="link-primary" href="referencias.html#3"
+										aria-label="referência"><sup>3</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#5"
+										aria-label="referência"><sup>5</sup></a>
+									<span class='obrigatorio' id='si3' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='i3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i3a" name='i3' value='10'>
+										<label class="form-check-label" for="i3a">Internal/External
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='&Eacute; uma palavra em ingl&ecirc;s que significa<strong> elo</strong>, <strong> v&iacute;nculo </strong>ou<strong> liga&ccedil;&atilde;o</strong>. O link &eacute; uma hiperliga&ccedil;&atilde;o, ou seja, uma palavra, texto ou imagem que, quando &eacute; clicada pelo usu&aacute;rio, o encaminha para outra p&aacute;gina na internet, que pode conter outros textos ou imagens'>
+												Links</a>
+										</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i3b" name='i3' value='1'>
+										<label class="form-check-label" for="i3b">No Links
+										</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='ti4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='i4' form='fair'>
+								<legend>I4. Does (meta)data use a formal, accessible, shared, and broadly applicable
+									language for knowledge representation?<a class="link-primary"
+										href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#2"
+										aria-label="referência"><sup>2</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a><span class='obrigatorio' id='si4'
+										role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='i4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4a" name='i4' value='10'>
+										<label class="form-check-label" for="i4a">Use of terminological control
+											instruments
+											WITH global identifier</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4b" name='i4' value='7'>
+										<label class="form-check-label" for="i4b">Use of terminological control
+											instruments
+											WITHOUT global identifier</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4c" name='i4' value='4'>
+										<label class="form-check-label" for="i4c">No resource/instrument</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4d" name='i4' value='1'>
+										<label class="form-check-label" for="i4d">Data elements not
+											described</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<fieldset class='grey reusable' form='fair'>
+						<legend>REUSABLE PRINCIPLE</legend>
+						<fieldset class='perguntas' form='fair' id='r1'>
+							<legend> R1. Are the (meta)data sets licensed?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a><span class='obrigatorio' id='sr1'
+									role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r1'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r1a" name='r1' required value='10'>
+									<label class="form-check-label" for="r1a">Yes</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r1b" name='r1' required value='1'>
+									<label class="form-check-label" for="r1b">No</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' form='fair' id='r2'>
+							<legend> R2. Which is the user license granted to the (meta)data sets? <a
+									class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<span class='obrigatorio' id='sr2' role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r2a" name='r2' required value='10'>
+									<label class="form-check-label" for="r2a">Open</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r2b" name='r2' required value='1'>
+									<label class="form-check-label" for="r2b">Restrict</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tr4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='r4' form='fair'>
+								<legend>R4. Do (meta)data sets have detailed
+									<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+										data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+										title='Information concerning (meta)data ownership chronology, custody or location'>
+										provenance</a>?
+									<a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sr4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='r4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r4a" name='r4' value='10'>
+										<label class="form-check-label" for="r4a">Yes</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r4b" name='r4' value='1'>
+										<label class="form-check-label" for="r4b">No</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='r5'>
+							<legend>R5. Are (meta)data associated with detailed provenance?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sr5' role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5a" name='r5' required value='10'>
+									<label class="form-check-label" for="r5a">Provenance Tracking
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5b" name='r5' required value='5'>
+									<label class="form-check-label" for="r5b">Declaration of Provenance
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5c" name='r5' required value='1'>
+									<label class="form-check-label" for="r5c">No Provenance Information
+									</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tr6' class='d-inline-block' data-bs-toggle='tooltip' data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador"'>
+							<fieldset class='perguntas' id='r6' form='fair'>
+								<legend>R6. Does (meta)data meet
+									<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+										data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+										title='Field of activity in which knowledge and experiences about certain subjects, interests and needs are shared'>
+										domain</a>-relevant community standards? <a class="link-primary"
+										href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sr6' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='r6'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6a" name='r6' value='10'>
+										<label class="form-check-label" for="r6a">Domain Standards</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6b" name='r6' value='7'>
+										<label class="form-check-label" for="r6b">Minimum Domain Standards</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6c" name='r6' value='4'>
+										<label class="form-check-label" for="r6c">Generic Standards</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6d" name='r6' value='1'>
+										<label class="form-check-label" for="r6d">No Standard used</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<button type='submit' class='btn btn-primary noPrint' onclick="calcular();" name="run"
+						aria-label='Run Assessment'>Run Assessment</button>
+					<button id='imprimir' onclick="window.print();" class="btn btn-primary noPrint" name="imprime"
+						aria-label='Save/Print Assessment'>Save/Print Assessment</button>
+					<div id='me' class='message' role='status'></div>
+					<div id='fairplus' class='invisible'>
+						<p>Aproveite e verifique como ficará sua pontuação em FairDataBR<sup>+</sup></p>
+						<button id='copiar' onclick="copia();" class="btn btn-primary noPrint" name="copiar"
+							aria-label='Copiar respostas para FairDataBR+'>Copiar respostas para
+							FairDataBR+</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class='container'>
+			<section class='dashboards' id='dashboard'>
+				<div class='containerc noPrint card-body'>
+					<div class='row gx-0 gy-0 row-cols-md-1 row-cols-md-1 row-cols-md-1 row-cols-md-4 row-cols-md-5'>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent' aria-labelledby='notaFINDABLE'>
+										<svg class='corfindable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nfindable'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaFINDABLE' class='text'><em lang="en"> FINDABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent'>
+										<svg class='coraccessible' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='naccessible' aria-labelledby='notaACCESSIBLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaACCESSIBLE' class='text'><em lang="en"> ACCESSIBLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent'>
+										<svg class='corinteroperable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='ninteroperable' aria-labelledby='notaINTEROPERABLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaINTEROPERABLE' class='text'><em lang="en"> INTEROPERABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent'>
+										<svg class='correusable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nreusable' aria-labelledby='notaREUSABLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaREUSABLE' class='text'><em lang="en"> REUSABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent'>
+										<svg class='cormedia' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nmedia' aria-labelledby='notaFinal'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaFinal' class='text' aria-hidden='true'>AVERAGE</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='container'>
+					<div class='row gx-0 gy-0 row-cols-md-1 row-cols-md-1 row-cols-md-1 row-cols-md-4 row-cols-md-5'>
+						<div class='calculo'>
+							<span class='col'><label class="form-check-label" for="fr">Seção 1
+									FINDABLE:</label><input class="form-control" type="text" id="fr" value=''
+									readonly></span>
+							<span class='col'><label class="form-check-label" for="ar">Seção 2
+									ACCESSIBLE:</label><input class="form-control" type="text" id="ar" value=''
+									readonly></span>
+							<span class='col'><label class="form-check-label" for="ir">Seção 3
+									INTEROPERABLE:</label><input class="form-control" type="text" id="ir" value=''
+									readonly></span>
+							<span class='col'><label class="form-check-label" for="rr">Seção 4
+									REUSABLE:</label><input class="form-control" type="text" id="rr" value=''
+									readonly></span>
+							<span class='col'><label class="form-check-label" for="mr">FAIR AVERAGE: </label><input
+									class="form-control" type="text" id="mr" value='' readonly></span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+	<footer class='noPrint'>
+		<div class='footer'>
+
+		</div>
+	</footer>
+	<script>
+	</script>
+</body>
+
+</html>

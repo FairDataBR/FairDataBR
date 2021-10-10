@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700&display=swap');
+
+.active :not(li, label, svg, sup, input, body) {
+  background: #1b1b1b!important;
+  background-color: #1b1b1b!important;
+  color: #fefefc!important;
+}
+
+.active body{
+  background-color: #1C1C1B!important;
+}
+
+.active ul li label {
+  color: #EEF3F9;
+}
+
+.input-group-text.active {
+  background-color: #272A2C!important;
+  border-color: #383D42;
+}
+
+.active a {
+  color: #00A7D1!important;
+}
+
+.active .principios {
+  color: #00A7D1!important;
+}
+
+.active .obrigatorio {
+  color: #FF6161!important;
+}
+
+.grey {
+  border: solid black 4px;
+  border-radius: 7px;
+  position: relative;
+  display: block;
+  border-bottom: solid 1px;
+}
+
+.calculo {
+  display: contents;
+}
+
+@media screen and (max-width: 992px) {
+  .calculo {
+    display: inline-grid;
+  }
+  .texto p {
+    font-size: 18px!important;
+    text-align: center;
+    padding-right: 40px!important;
+    padding-top: 100px!important;
+  }
+  .texto {
+    background-color: #000;
+  }
+}
+
+/* Begin Compatibilidade VoiceOver*/
+
+ul li::before {
+  content: "\200B";
+}
+
+ul {
+  list-style: none;
+  padding-right: 30px;
+}
+
+/* End Compatibilidade VoiceOver*/
+
+ol {
+  list-style: none;
+}
+
+.obrigatorio {
+  color: #B30000;
+}
+
+caption {
+  display: table-footer-group;
+  border-left: hidden;
+  border-bottom: hidden;
+}
+
+h2 {
+  text-align: left;
+}
+
+#openapi, #webservice, #Swagger, #JSON, #apis {
+  font-style: italic;
+}
+
+.principios {
+  min-width: 140px;
+  background: #f0f8ff;
+  height: 18px;
+  color: #3476ad;
+}
+
+#ativo a {
+  background-color: #add8e6!important;
+  color: #000!important;
+  border-bottom: 3px solid #add8e6;
+}
+
+.flag {
+  vertical-align: middle;
+}
+
+/** Begin Acessibilidade **/
+
+* {
+  line-height: 1.5 !important;
+  letter-spacing: 0.12em !important;
+  word-spacing: 0.16em !important;
+}
+
+/** End Acessibilidade **/
+
+.footer {
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: right;
+}
+
+.grid {
+  display: inline-flex;
+}
+
+@media print {
+  .noPrint {
+    display: none !important;
+  }
+}
+
+.findable>legend {
+  background: #1A6510;
+}
+
+.findable input {
+  border: solid 1.8px #1A6510;
+}
+
+.findable {
+  border-color: #1A6510;
+}
+
+h5 {
+  color: #fefefc;
+}
+
+.findable>div>h5 {
+  background-color: #1A6510;
+}
+
+.acessible {
+  border-color: #0E2DBC;
+}
+
+.acessible>div>h5 {
+  background-color: #0E2DBC;
+}
+
+.acessible>legend {
+  background: #0E2DBC;
+}
+
+.acessible input {
+  border: solid 1.8px #0E2DBC;
+}
+
+.interoperable {
+  border-color: #8E00BD;
+}
+
+.interoperable>div>h5 {
+  background-color: #8E00BD;
+}
+
+.interoperable input {
+  border: solid 1.8px #8E00BD;
+}
+
+.reusable {
+  border-color: #E00000;
+}
+
+.reusable>div>h5 {
+  background-color: #E00000;
+}
+
+.reusable input {
+  border: solid 1.8px #E00000;
+}
+
+.interoperable>legend {
+  background: #8E00BD;
+}
+
+.reusable>legend {
+  background: #E00000;
+}
+
+.tooltip:after {
+  content: attr(aria-label)
+}
+
+label {
+  overflow: hidden;
+  display: inline;
+}
+
+h1, h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: #575757;
+  font-size: 48px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.introduction {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.principal {
+  background-color: #006633;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+
+body {
+  background-color: #fefefc;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.interoperable fieldset>legend {
+  color: #8E00BD;
+}
+
+.form-check-input:disabled~.form-check-label, .form-check-input[disabled]~.form-check-label {
+  opacity: .65;
+  background-color: inherit;
+}
+
+.reusable fieldset>legend {
+  color: #E00000;
+}
+
+.acessible fieldset>legend {
+  color: #0E2DBC;
+}
+
+.findable fieldset>legend {
+  color: #1A6510;
+}
+
+#qrcode {
+  width: 160px;
+  height: 160px;
+  margin-top: 15px;
+}
+
+/* Compatibilidade IE */
+
+.visually-hidden-focusable link-primary {
+  position: absolute;
+}
+
+.btn-primary {
+  background-color: #0A52BD;
+  border-color: #0A52BD;
+  margin-top: 10px;
+}
+
+.btn-primary:focus {
+  background-color: #0C4CA7;
+  border-color: #0C4CA7;
+}
+
+.btn-primary:hover {
+  background-color: #0C4CA7;
+  border-color: #0C4CA7;
+}
+
+#flexSwitchCheckDefault {
+  margin-top: 7px;
+}
+
+/* Todas imagens devem ter tamanho especificado, caso não seja declarado no html isso resolve */
+
+/* Max-width foi alterado de 100% para max-content, pois as bandeiras estavam desaparecendo dependendo do tamanho da janela */
+
+img {
+  object-fit: contain;
+  max-width: max-content;
+  max-width: -moz-available;
+  /* For Mozzila */
+  height: auto;
+}
+
+.timbu {
+  align-items: center;
+  height: 88px;
+}
+
+.timbu img {
+  margin-block-start: -20px;
+}
+
+legend {
+  color: #fefefc;
+}
+
+fieldset li, legend {
+  padding-left: 30px!important;
+}
+
+.invisible {
+  display: none!important;
+}
+
+#f3, #f4, #a1, #a3, #a4, #a7, #i3, #i4, #r4, #r6 {
+  opacity: 0.65;
+}
+
+#fairplus {
+  margin-top: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+
+.column {
+  float: left;
+  height: 570px;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* this adds the "card" effect */
+  background-color: #f1f1f1;
+  height: inherit;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+#textqrcode {
+  padding-top: 20px;
+}
+
+.card-body {
+  padding: 0rem 0rem;
+}
+
+.col>.form-check-label {
+  white-space: nowrap;
+}
+
+#me {
+  padding-bottom: 20px;
+}
+
+#formfair>legend {
+  color: black;
+}
+
+.link-primary {
+  color: #005E75;
+}
+
+.g-image {
+  height: 16px;
+}
+
+fieldset>ul li {
+  border-radius: .25rem!important;
+}
+
+fieldset>ul {
+  display: inline-block;
+}
+
+.input-group-text {
+  display: list-item;
+  text-align: inherit;
+  white-space: inherit;
+}
+
+fieldset {
+  padding-bottom: 10px;
+}
+
+#menu {
+  background-color: #fff;
+  z-index: 1;
+}
+
+#menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+  /* visual do link */
+  background-color: #fff;
+  color: #006633;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#menu ul li a:hover {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 3px solid #add8e6;
+}
+
+/** Begin Navegação por teclado **/
+
+#menu ul li a:focus-visible {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 3px solid #ADD8E6;
+}
+
+/** End Navegação por teclado **/
+
+.form-switch .form-check-input {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23006633'/%3e%3c/svg%3e");
+  /* Fix bug bootstrap 5 para modo dark (css) */
+  border-color: #006633;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23006633'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23d8779a'/%3e%3c/svg%3e");
+  border-color: #d8779a;
+}
+
+.navbar-brand {
+  width: 10rem;
+  padding-top: 0;
+  margin-right: 0;
+}
+
+.navbar-fixed-top {
+  padding: 0;
+  min-height: 80px;
+}
+
+/** Definir cor da borda do traços do menu **/
+
+.navbar-light .navbar-toggler {
+  border-color: #00662C;
+}
+
+/** Definir cor do traços do menu **/
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 102, 44, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;
+}
+
+/** Fix Bug, Não aparecer fundo branco do descolamento, trocar margin do bootstrap por padding **/
+
+.form-check {
+  margin-bottom: 0px;
+  padding-bottom: .125rem;
+}
+
+/* Evita deslocamento do texto, pois outro componentes tem borda quando passa o mouse */
+
+.nav-link {
+  border-bottom: 3px solid transparent;
+}
+
+.table {
+  margin-bottom: 0px;
+  padding-bottom: 1rem;
+}
+
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.topo {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.texto {
+  background-image: url(img/inicial-topo-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: -30px;
+}
+
+.texto p {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-bottom:48px;
+}

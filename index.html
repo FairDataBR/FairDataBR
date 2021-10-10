@@ -1,0 +1,1061 @@
+<!--
+As imagens da Bandeira do Brasil e do Reino Unido estão sob licença:
+Copyright 2020 Twitter, Inc e outros contribuidores
+Código licenciado sob a Licença MIT: http://opensource.org/licenses/MIT
+Graphics licenciado sob CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+Fonte: https://twemoji.twitter.com/
+-->
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset='UTF-8' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta name='description'
+		content='Ferramenta para avaliação de conjuntos de dados, automatiza o processo de verificação da aderência dos conjuntos de dados aos Princípios FAIR. Possui uso simples e intuitivo.' />
+	<meta name="keywords" content="Princípios FAIR, Fair Brasil, FAIRDataBR">
+	<meta property="og:url" content="https://wrco.ufpb.br/fair" />
+	<meta property="og:image" content="https://wrco.ufpb.br/fair/img/TimbuFairDataBR-100.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css' rel='stylesheet'
+		integrity='sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x' crossorigin='anonymous'>
+	<script src='code091021.js'></script>
+	<script src='qrjs2.js'></script>
+	<script src='acessibilidade010821.js'></script>
+	<title>FairDataBR</title>
+	<link rel="stylesheet" href='estilo040621.css'>
+	<link rel="stylesheet" href='barra210521.css'>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index-en.html' hreflang="en">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="pt">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="pt-br">
+	<link rel="alternate" href='https://wrco.ufpb.br/fair/index.html' hreflang="x-default">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-65Y5G6H3LT"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-65Y5G6H3LT');
+	</script>
+</head>
+
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+		crossorigin="anonymous"></script>
+	<a class="visually-hidden-focusable link-primary" href='#content'>Skip navigation</a>
+	<header class="d-flex justify-content-center noPrint">
+		<div>
+			<nav id='menu' class='navbar navbar-expand-lg navbar-light'>
+				<div class="container">
+					<a class='navbar-brand' href='index.html'><img id="brandTimbu" src='img/HorizontalFairDataBR.svg'
+							alt='FairDataBR logo' /><span class="visually-hidden">FairDataBR</span></a>
+					<button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav'
+						aria-controls='navbarNav' aria-expanded='false' aria-label="Toggle navigation"
+						name='Toggle navigation'>
+						<span class='navbar-toggler-icon' role='presentation'></span>
+					</button>
+					<div class='collapse navbar-collapse' id='navbarNav'>
+						<ul class='navbar-nav'>
+							<li class='nav-item'>
+								<a class="nav-link" href='fair+.html'
+									title='Versão Estendidas com mais perguntas'>FairDataBR<sup>+</sup></a>
+							</li>
+							<li class='nav-item'>
+								<a class="nav-link" href='glossariobr.html'
+									title='Glossário para você não ficar com nenhuma dúvida'>Glossário</a>
+							</li>
+							<li class='nav-item'>
+								<a accesskey='o' class="nav-link" href='acessibilidade.html'
+									title='Acessibilidade e Atalhos'>Acessibilidade</a>
+							</li>
+							<li class='nav-item flag'>
+								<a class="nav-link" href='index-en.html' title='Switch to English'><img
+										src="https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg" class="g-image"
+										alt='Bandeira UK' /><span class="visually-hidden">Mudar
+										para o idioma Inglês</span></a>
+							</li>
+							<li class='nav-item flag'>
+								<a class="nav-link" href='index.html' title='Mudar para o idioma Brasileiro'><img
+										src="https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f7.svg" class="g-image"
+										alt='Bandeira brasileira' /><span class="visually-hidden">Mudar
+										para o idioma Brasileiro</span></a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' href='mailto:datafairbr@gmail.com'
+									title='Envie suas sugestões'>Contato</a>
+							</li>
+							<li class='nav-item form-check form-switch'>
+								<input class="form-check-input" type='checkbox' id='flexSwitchCheckDefault'
+									title='Alternar entre modo normal e dark'>
+								<label class="form-check-label visually-hidden" for='flexSwitchCheckDefault'>Alternar
+									entre modo normal e dark</label>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='diminuir tamanho da fonte'
+									aria-label='diminuir tamanho da fonte' onclick="mudarTamFonte('12px','inherit')"
+									href='javascript:void(0);'>-</a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='restaurar tamanho da fonte'
+									aria-label='restaurar tamanho da fonte' onclick="mudarTamFonte('inherit','inherit')"
+									href='javascript:void(0);'>A</a>
+							</li>
+							<li class='nav-item'>
+								<a class='nav-link' title='aumentar tamanho da fonte'
+									aria-label='aumentar tamanho da fonte' onclick="mudarTamFonte('24px','18px')"
+									href='javascript:void(0);'>+</a>
+							</li>
+						</ul>
+
+						<a class="nav-link" target="_blank" href='https://github.com/FairDataBR/FairDataBR'
+							title='GitHub'><img id="gitHub" src="img/GitHub_Logo.png" class="g-image"
+								alt='Acessar GitHub do Projeto' /><span class="visually-hidden">Acessar GitHub do Projeto</span></a>
+
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main class='noPrint' id='content'>
+		<div>
+			<div class="texto">
+				<p>FairDataBR: uma ferramenta para a avaliação de conjuntos de dados</p>
+			</div>
+		</div>
+		<section class='principal'>
+			<div class='text-center timbu'>
+				<img id='timbu-def-br' src='img/HorizontalFairDataBR-Negativo-UFPB.png'
+					alt="logo do site contendo um timbu" />
+			</div>
+			<div class='container introduction'>
+
+				<div class="row">
+					<div class="col">
+						<p>A ferramenta para a avaliação de conjuntos de dados FairDataBR, surgiu a partir da
+							constatação da
+							necessidade do desenvolvimento de uma aplicação que contribuísse para a automação do
+							processo de
+							verificação da aderência de conjuntos de dados aos Princípios FAIR. Esta ferramenta foi
+							desenvolvida por pesquisadores vinculados à Universidade Federal da Paraíba (PPGCI/MPGOA -
+							UFPB). Caracteriza-se por ser de uso simples e intuitivo. </p>
+					</div>
+					<div class="col">
+						<p>A ideia dos Princípios FAIR surgiu a partir do trabalho de um grupo variado de pessoas que
+							constatou a necessidade premente de se melhorar a infraestrutura de apoio a prática do
+							compartilhamento dos dados de pesquisa e de seu posterior reúso. Assim, a partir destas
+							premissas, um conjunto de princípios foram desenvolvidos com o objetivo de servirem como
+							diretrizes para todos que desejam compartilhar e ampliar o reúso dos seus dados de pesquisa
+							(WILKINSON et al., 2016).</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class='container'>
+				<H1>PRINCÍPIOS FAIR</H1>
+				<p>Os Princípios FAIR são um acrônimo para <em lang="en"> <strong>F</strong>indable</em>
+					(localizável), <em lang="en"> <strong>A</strong>ccessible</em> (acessível), <em lang="en">
+						<strong>I</strong>nteroperable</em> (interoperável) e <em lang="en"> <strong>R</strong>eusable
+					</em>(reutilizável). Na publicação pioneira sobre esses princípios, Wilkinson <em lang="en"> et
+						al.</em> (2016) afirmam que, para que os dados de pesquisa estejam em conformidade com os
+					princípios, devem seguir as respectivas orientações:
+			</div>
+			<div class='container-fluid'>
+				<div class="row">
+					<div class="column">
+						<div class="card findable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">Para ser<br> LOCALIZÁVEL (<em
+										lang="en">FINDABLE</em>)
+								</h5>
+								<div class="card-text">
+									<ol>
+										<li>F1. Os (meta)dados são atribuídos a um identificador persistente, único e
+											global.
+										</li>
+										<li>F2. Os dados são descritos com metadados ricos.</li>
+										<li>F3. Os metadados incluem, de forma clara e explícita, o identificador
+											dos dados que descrevem.
+										</li>
+										<li>F4. Os (meta)dados são registrados ou indexados em um recurso
+											pesquisável.
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card acessible" style="width: 18rem">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">Para ser<br> ACESSÍVEL (<em
+										lang="en">ACCESSIBLE</em>)
+								</h5>
+								<div class="card-text">
+									<ol>
+										<li>A1. Os (meta)dados são recuperáveis por seu identificador, usando-se um
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='Conjunto de padrões que possibilitam a comunicação e transferência de dados entre computadores em rede'>
+												protocolo</a>
+											de comunicação padronizado.
+											<ol>
+												<li>A1.1. O protocolo &eacute; aberto, gratuito e universalmente
+													implementável.</li>
+												<li>A1.2. O protocolo possibilita um procedimento de autenticação e
+													autorização,
+													quando
+													necessário</li>
+											</ol>
+										</li>
+										<li>A2. Os metadados são acessíveis, mesmo quando os dados não estão mais
+											disponíveis.</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card interoperable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">Para ser<br> INTEROPERÁVEL (<em
+										lang="en">INTEROPERABLE</em>)</h5>
+								<div class="card-text">
+									<ol>
+										<li>I1. Os (meta)dados usam uma linguagem formal, acessível, compartilhada e
+											amplamente
+											aplicável
+											para representar o conhecimento.</li>
+										<li>I2. Os (meta)dados usam vocabulários que seguem os Princípios FAIR.</li>
+										<li>I3. Os (meta)dados incluem referências qualificadas para outros
+											(meta)dados.
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="card reusable" style="width: 18rem;">
+							<div class="card-body containerc">
+								<h5 class="card-title text-center">Para ser <br> REUTILIZÁVEL (<em
+										lang="en">REUSABLE</em>)
+								</h5>
+								<div class="card-text">
+									<ol>
+										<li>R1. Os (meta)dados são ricamente descritos com uma pluralidade de
+											atributos
+											precisos e
+											relevantes.
+											<ol>
+												<li>R1.1. Os (meta)dados são disponibilizados com uma licença de uso
+													de
+													dados clara e
+													acessível.</li>
+												<li>R1.2. Os (meta)dados estão associados a uma
+													<a href='javascript:void(0);' class='link-primary tooltiptext'
+														role='link' data-bs-toggle='tooltip' data-bs-html='true'
+														data-bs-placement='auto'
+														title='São informações referentes &agrave;s entidades, atividades e pessoas envolvidas na produção de um conjunto de dados, servindo para garantir qualidade, segurança ou confiabilidade aos dados'>
+														proveniência</a>
+													detalhada.
+												</li>
+												<li>R1.3. Os (meta)dados estão de acordo com padrões comunitários
+													relevantes
+													para o
+													<a href='javascript:void(0);' class='link-primary tooltiptext'
+														role='link' data-bs-toggle='tooltip' data-bs-html='true'
+														data-bs-placement='auto'
+														title='Muitas comunidades possuem padrões para o uso de informações. O uso de conjuntos de (meta)dados torna-se mais simples quando eles são similares'>
+														domínio</a>.
+												</li>
+											</ol>
+										</li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<section id='aval' class='avaliacaopadrao-br'>
+		<div class='container'>
+			<div>
+				<p id='textqrcode'>Continue a avaliação de onde parou, basta ler o QRCode.</p>
+				<div id='qrc'>
+				</div>
+				<a id="11yQrcode" class="visually-hidden link-primary" href='javascript:void(0);'>Abra uma nova janela
+					com as
+					respostas já preenchidas, tem a mesma função do qrcode. Basta copiar a url da nova aba e assim
+					poderá continuar de onde parou ou compartilhar suas respostas.</a>
+			</div>
+			<div class='obrigatorio' aria-hidden='true' dir='auto'>*Obrigatório</div>
+			<form class='form-check' onsubmit='return false' method='post' id='fair' aria-label='Avaliação Fair'>
+				<fieldset id="formfair">
+					<legend>Avaliação Fair</legend>
+					<fieldset class='grey findable' form='fair'>
+						<legend>PRINCÍPIO <em lang="en"> FINDABLE</em></legend>
+						<fieldset class='perguntas' id='f1' form='fair'>
+							<legend>F1. Os conjuntos de (meta)dados possuem um identificador único, global e
+								persistente?
+								<a class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#3"
+									aria-label="referência"><sup>3</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sf1' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+
+							<ul role='list' aria-labelledby='f1'>
+
+								<li role="listitem" class="input-group-text"> <input class="form-check-input"
+										type="radio" id="f1a" name='f1' value='10' required>
+									<label class="form-check-label" for="f1a">Identificador Persistente</label>
+								</li>
+
+
+
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1b" name='f1' value='7' required>
+									<label class="form-check-label" for="f1b">Endereço <em lang="en">
+											Web</em></label>
+								</li>
+
+
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1c" name='f1' value='4' required>
+									<label class="form-check-label" for="f1c">Identificador Local</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f1d" name='f1' value='1' required>
+									<label class="form-check-label" for="f1d">Sem identificador</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' id='f2' form='fair'>
+							<legend>F2. Os conjuntos de dados são descritos com metadados?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#3"
+									aria-label="referência"><sup>3</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<span class='obrigatorio' id='sf2' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='f2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2a" name='f2' value='10' required>
+									<label class="form-check-label" for="f2a">Metadados Ricos</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2b" name='f2' value='7' required>
+									<label class="form-check-label" for="f2b">Metadados Estruturados</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2c" name='f2' value='4' required>
+									<label class="form-check-label" for="f2c">Metadados Simples</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f2d" name='f2' value='1' required>
+									<label class="form-check-label" for="f2d">Sem metadados</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tf3' class='d-inline-block' data-bs-toggle='tooltip' data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador" e responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='f3' form='fair'>
+								<legend>F3. O identificador está incluso em todos os registros / arquivos de
+									metadados
+									que descrevem os dados?<a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sf3' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='f3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f3a" name='f3' value='10'>
+										<label class="form-check-label" for="f3a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f3b" name='f3' value='1'>
+										<label class="form-check-label" for="f3b">Não</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='tf4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador"'>
+							<fieldset class='perguntas' id='f4' form='fair'>
+								<legend>F4. O recurso digital pode ser encontrado em mecanismos de pesquisa na <em
+										lang="en">Web</em>? <a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sf4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='f4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f4a" name='f4' value='10'>
+										<label class="form-check-label" for="f4a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="f4b" name='f4' value='1'>
+										<label class="form-check-label" for="f4b">Não</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' id='f5' form='fair'>
+							<legend>F5. O conjunto de (meta)dados está publicado em um repositório? <a
+									class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<span class='obrigatorio' id='sf5' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='f5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5a" name='f5' required value='10'>
+									<label class="form-check-label" for="f5a">Público Geral</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5b" name='f5' required value='7'>
+									<label class="form-check-label" for="f5b">Específico de
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Muitas comunidades possuem padrões para o uso de informações. O uso de conjuntos de (meta)dados torna-se mais simples quando eles são similares'>
+											Domínio</a></label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5c" name='f5' required value='4'>
+									<label class="form-check-label" for="f5c">Institucional de Local</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="f5d" name='f5' required value='1'>
+									<label class="form-check-label" for="f5d">Em Nenhum Repositório</label>
+								</li>
+							</ul>
+						</fieldset>
+					</fieldset>
+					<fieldset class='grey acessible' form='fair'>
+						<legend>PRINCÍPIO <em lang="en"> ACCESSIBLE</em></legend>
+						<div id='ta1' class='d-inline-block' data-bs-toggle='tooltip' data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='a1' form='fair'>
+								<legend>A1. Quão acessíveis são os (meta)dados?<a class="link-primary"
+										href="referencias.html#2" aria-label="referência"><sup>2</sup></a>
+									<span class='obrigatorio' id='sa1' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a1'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1a" name='a1' value='10'>
+										<label class="form-check-label" for="a1a">Acessível ao Público</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1b" name='a1' value='7'>
+										<label class="form-check-label" for="a1b">Acesso com
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='Período de tempo (normalmente provisório) em que o conteúdo de um conjunto de dados permanece sob sigilo, sem permissão para ser publicado ou disponibilizado para acesso público'>
+												Embargo</a></label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1c" name='a1' value='4'>
+										<label class="form-check-label" for="a1c">Acesso somente aos dados ou somente
+											aos metadados</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a1d" name='a1' value='1'>
+										<label class="form-check-label" for="a1d">Sem acesso a dados e
+											metadados</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='a2'>
+							<legend>A2. Os (meta)dados estão acessíveis<em lang="en"> online </em>sem a necessidade de
+								intermediação de
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Conjunto de padrões que possibilitam a comunicação e transferência de dados entre computadores em rede'>
+									protocolos</a>
+								ou ferramentas especializadas a partir do momento em que o acesso é permitido?<a
+									class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<span class='obrigatorio' id='sa2' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='a2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2a" name="a2" required="required" value='10'>
+									<label class="form-check-label" for="a2a">
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Conjunto de funções que podem ser usadas para interagir com um<em lang="en"> software</em>, compondo uma interface de programação de aplicativo que funciona como um padrão para a criação de aplicativos, <em lang="en"> softwares</em> e outras plataformas'>
+											API</a>
+										de
+										<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+											data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+											title='Conjunto de métodos empregados para a integração de sistemas e comunicação entre aplicações diferentes'>
+											<em lang="en"> Web Service</em></a>
+										padrão
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2b" name='a2' required value='8'>
+									<label class="form-check-label" for="a2b"><em lang="en"> Web Service </em>não padrão
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2c" name='a2' required value='4'>
+									<label class="form-check-label" for="a2c"><em lang="en"> Download</em> de arquivo
+										<em lang="en">online</em></label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2d" name='a2' required value='2'>
+									<label class="form-check-label" for="a2d">Através de acordo individual</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a2e" name='a2' required value='1'>
+									<label class="form-check-label" for="a2e">Sem acesso aos (meta)dados</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ta3' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F1 com uma resposta diferente de "Sem identificador" e responda a pergunta F2 com uma resposta diferente de "Sem Metadados"'>
+							<fieldset class='perguntas' id='a3' form='fair'>
+								<legend>A3. É possível acessar o conjunto de (meta)dados pelo identificador fornecido?<a
+										class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sa3' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a3a" name='a3' value='10'>
+										<label class="form-check-label" for="a3a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a3b" name='a3' value='1'>
+										<label class="form-check-label" for="a3b">Não</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='ta4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' form='fair' id='a4'>
+								<legend>A4. Os metadados estão disponíveis mesmo quando o conjunto de dados não
+									estiverem mais acessíveis?<a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#3"
+										aria-label="referência"><sup>3</sup></a>
+									<span class='obrigatorio' id='sa4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4a" name='a4' value='10'>
+										<label class="form-check-label" for="a4a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4b" name='a4' value='1'>
+										<label class="form-check-label" for="a4b">Não</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a4c" name='a4' value='0'>
+										<label class="form-check-label" for="a4c">Não se aplica</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='a5'>
+							<legend>A5. O
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Conjunto de padrões que possibilitam a comunicação e transferência de dados entre computadores em rede'>
+									protocolo</a>
+								(ex:
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Protocolo de transferência que permite a visualização de conteúdos a partir da URL, definindo as regras de troca de informações entre servidores que abrigam sites e computadores'>
+									HTTP</a>,
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Padrão aberto que simplifica processos de autenticação e autorização para usuários, provedores de identidade e provedores de serviços'>
+									SAML</a>,
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Protocolo de interoperabilidade que permite o compartilhamento de metadados entre diversos repositórios, por meio do m&eacute;todo de coleta de metadados conhecido como <em lang="en"> harvesting</em>'>
+									OAI-PMH)</a>
+								é aberto, gratuito e universalmente implementável?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sa5' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='a5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a5a" name='a5' required value='10'>
+									<label class="form-check-label" for="a5a">Sim</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="a5b" name='a5' required value='1'>
+									<label class="form-check-label" for="a5b">Não</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ta7' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta A1 com uma resposta diferente de "Sem acesso a dados ou metadados"'>
+							<fieldset class='perguntas' id='a7' form='fair'>
+								<legend> A7. É possível realizar o <em lang="en"> download</em> dos conjuntos de
+									(meta)dados?<a class="link-primary" href="referencias.html#2"
+										aria-label="referência"><sup>2</sup></a>
+									<span class='obrigatorio' id='sa7' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='a7'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a7a" name='a7' value='10'>
+										<label class="form-check-label" for="a7a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="a7b" name='a7' value='1'>
+										<label class="form-check-label" for="a7b">Não</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<fieldset class='grey interoperable' form='fair'>
+						<legend>PRINCÍPIO <em lang="en"> INTEROPERABLE</em></legend>
+						<fieldset class='perguntas' form='fair' id='i1'>
+							<legend> I1. Os conjuntos de (meta)dados estão disponíveis em formatos preferenciais?<a
+									class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<span class='obrigatorio' id='si1' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='i1'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i1a" name='i1' required value='10'>
+									<label class="form-check-label" for="i1a">Sim</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i1b" name='i1' required value='1'>
+									<label class="form-check-label" for="i1b">Não</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' form='fair' id='i2'>
+							<legend>I2. Os conjuntos de dados estão estruturados a partir de um esquema de metadados ou
+								modelos de dados aprovados pela comunidade?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<span class='obrigatorio' id='si2' role='presentation'
+									aria-label='Pergunta Obrigatória'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='i2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2a" name='i2' required value='10'>
+									<label class="form-check-label" for="i2a">Esquema de Comunidade Padrão</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2b" name='i2' required value='5'>
+									<label class="form-check-label" for="i2b">Esquema Explícito</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="i2c" name='i2' required value='1'>
+									<label class="form-check-label" for="i2c">Esquema não formalizado</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='ti3' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='i3' form='fair'>
+								<legend>I3. Os conjuntos de (meta)dados estão vinculados a outros (meta)dados usando
+									identificadores? <a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#2"
+										aria-label="referência"><sup>2</sup></a>
+									<a class="link-primary" href="referencias.html#3"
+										aria-label="referência"><sup>3</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#5"
+										aria-label="referência"><sup>5</sup></a> <span class='obrigatorio' id='si3'
+										role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='i3'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i3a" name='i3' value='10'>
+										<label class="form-check-label" for="i3a">
+											<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+												data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+												title='&Eacute; uma palavra em inglês que significa<strong> elo</strong>, <strong> vínculo </strong>ou<strong> ligação</strong>. O<em lang="en"> link </em>&eacute; uma hiperligação, ou seja, uma palavra, texto ou imagem que, quando &eacute; clicada pelo usuário, o encaminha para outra página na internet, que pode conter outros textos ou imagens'>
+												<em lang="en">Links</em></a>
+											Internos/Externos
+										</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i3b" name='i3' value='1'>
+										<label class="form-check-label" for="i3b">Sem <em lang="en"> Links</em>
+										</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<div id='ti4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='i4' form='fair'>
+								<legend>I4. Para representação dos dados ou conjuntos de dados, utilizou-se
+									recursos/instrumentos de controle terminológico?<a class="link-primary"
+										href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#2"
+										aria-label="referência"><sup>2</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a><span class='obrigatorio' id='si4'
+										role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='i4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4a" name='i4' value='10'>
+										<label class="form-check-label" for="i4a">Uso de instrumentos de controle
+											terminológico COM identificador global</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4b" name='i4' value='7'>
+										<label class="form-check-label" for="i4b">Uso de instrumentos de controle
+											terminológico SEM identificador global</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4c" name='i4' value='4'>
+										<label class="form-check-label" for="i4c">Nenhum recurso/instrumento</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="i4d" name='i4' value='1'>
+										<label class="form-check-label" for="i4d">Elementos de dados não
+											descritos</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<fieldset class='grey reusable' form='fair'>
+						<legend>PRINCÍPIO <em lang="en"> REUSABLE</em></legend>
+						<fieldset class='perguntas' form='fair' id='r1'>
+							<legend> R1. Os conjuntos de (meta)dados estão licenciados?<a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a><span class='obrigatorio' id='sr1'
+									role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r1'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r1a" name='r1' required value='10'>
+									<label class="form-check-label" for="r1a">Sim</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r1b" name='r1' required value='1'>
+									<label class="form-check-label" for="r1b">Não</label>
+								</li>
+							</ul>
+						</fieldset>
+						<fieldset class='perguntas' form='fair' id='r2'>
+							<legend> R2. Qual a licença de uso dos conjuntos de (meta)dados? <a class="link-primary"
+									href="referencias.html#1" aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#2"
+									aria-label="referência"><sup>2</sup></a>
+								<a class="link-primary" href="referencias.html#4"
+									aria-label="referência"><sup>4</sup></a>
+								<span class='obrigatorio' id='sr2' role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r2'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r2a" name='r2' required value='10'>
+									<label class="form-check-label" for="r2a">Aberta</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r2b" name='r2' required value='1'>
+									<label class="form-check-label" for="r2b">Restrita</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tr4' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='r4' form='fair'>
+								<legend>R4. Os conjuntos de (meta)dados possuem
+									<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+										data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+										title='São informações referentes &agrave;s entidades, atividades e pessoas envolvidas na produção de um conjunto de dados, servindo para garantir qualidade, segurança ou confiabilidade aos dados'>
+										proveniência</a>
+									detalhada?
+									<a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sr4' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='r4'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r4a" name='r4' value='10'>
+										<label class="form-check-label" for="r4a">Sim</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r4b" name='r4' value='1'>
+										<label class="form-check-label" for="r4b">Não</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+						<fieldset class='perguntas' form='fair' id='r5'>
+							<legend>R5. Os conjuntos de (meta)dados são acompanhados ou vinculados a uma descrição da
+								origem
+								do
+								<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+									data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+									title='Remete &agrave;s entidades envolvidas na criação e geração dos dados, bem como &agrave;s versões do conjunto de dados (caso existam diferentes versões).</span></span>  que produziu os (meta)dados?'>
+									fluxo de trabalho</a>
+								que produziu os (meta)dados?<a class="link-primary" href="referencias.html#1"
+									aria-label="referência"><sup>1</sup></a>
+								<a class="link-primary" href="referencias.html#5"
+									aria-label="referência"><sup>5</sup></a>
+								<a class="link-primary" href="referencias.html#6"
+									aria-label="referência"><sup>6</sup></a>
+								<span class='obrigatorio' id='sr5' role='presentation'>*</span>
+							</legend>
+							<ul role='list' aria-labelledby='r5'>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5a" name='r5' required value='10'>
+									<label class="form-check-label" for="r5a">Rastreamento de Proveniência
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5b" name='r5' required value='5'>
+									<label class="form-check-label" for="r5b">Declaração de Proveniência
+									</label>
+								</li>
+								<li role="listitem" class="input-group-text"><input class="form-check-input"
+										type="radio" id="r5c" name='r5' required value='1'>
+									<label class="form-check-label" for="r5c">Sem Informações de Proveniência
+									</label>
+								</li>
+							</ul>
+						</fieldset>
+						<div id='tr6' class='d-inline-block' role='tooltip' data-bs-toggle='tooltip'
+							data-bs-placement='auto'
+							title='Para ativar, responda a pergunta F2 com uma resposta diferente de "Sem metadados"'>
+							<fieldset class='perguntas' id='r6' form='fair'>
+								<legend>R6. Os (meta)dados estão de acordo com padrões relevantes para o
+									<a href='javascript:void(0);' class='link-primary tooltiptext' role='link'
+										data-bs-toggle='tooltip' data-bs-html='true' data-bs-placement='auto'
+										title='Muitas comunidades possuem padrões para o uso de informações. O uso de conjuntos de (meta)dados torna-se mais simples quando eles são similares'>
+										Domínio</a>? <a class="link-primary" href="referencias.html#1"
+										aria-label="referência"><sup>1</sup></a>
+									<a class="link-primary" href="referencias.html#4"
+										aria-label="referência"><sup>4</sup></a>
+									<a class="link-primary" href="referencias.html#6"
+										aria-label="referência"><sup>6</sup></a>
+									<span class='obrigatorio' id='sr6' role='presentation'></span>
+								</legend>
+								<ul role='list' aria-labelledby='r6'>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6a" name='r6' value='10'>
+										<label class='form-check-label' for="r6a">Padrões de Domínio</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6b" name='r6' value='7'>
+										<label class="form-check-label" for="r6b">Padrões Mínimos de Domínio</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6c" name='r6' value='4'>
+										<label class="form-check-label" for="r6c">Padrões Genéricos</label>
+									</li>
+									<li role="listitem" class="input-group-text"><input class="form-check-input"
+											type="radio" id="r6d" name='r6' value='1'>
+										<label class="form-check-label" for="r6d">Nenhum Padrão Utilizado</label>
+									</li>
+								</ul>
+							</fieldset>
+						</div>
+					</fieldset>
+					<button type='submit' class='btn btn-primary noPrint' onclick="calcular();" name="calcula"
+						aria-label='Calcular Pontuação'>Calcular Pontuação</button>
+					<button id='imprimir' onclick="window.print();" class="btn btn-primary noPrint" name="imprime"
+						aria-label='Salvar/Imprimir Avaliação'>Salvar/Imprimir Avaliação</button>
+					<div id='me' class='message' role='status'></div>
+					<div id='fairplus' class='invisible'>
+						<p>Aproveite e verifique como ficará sua pontuação em FairDataBR<sup>+</sup></p>
+						<button id='copiar' onclick="copia();" class="btn btn-primary noPrint" name="copiar"
+							aria-label='Copiar respostas para FairDataBR+'>Copiar respostas para FairDataBR+</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<div class='container'>
+			<section class='dashboards' id='dashboard'>
+				<div class='containerc noPrint card-body'>
+					<div class='row gx-0 gy-0 row-cols-md-1 row-cols-md-1 row-cols-md-1 row-cols-md-4 row-cols-md-5'>
+						<div class='col'>
+							<div class='card'>
+								<div id='f' class='box'>
+									<div class='percent' aria-labelledby='notaFINDABLE'>
+										<svg class='corfindable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nfindable'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaFINDABLE' class='text'><em lang='en'>FINDABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div id='a' class='box'>
+									<div class='percent'>
+										<svg class='coraccessible' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='naccessible' aria-labelledby='notaACCESSIBLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaACCESSIBLE' class='text'><em lang="en"> ACCESSIBLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div id='i' class='box'>
+									<div class='percent'>
+										<svg class='corinteroperable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='ninteroperable' aria-labelledby='notaINTEROPERABLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaINTEROPERABLE' class='text'><em lang="en"> INTEROPERABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div id='r' class='box'>
+									<div class='percent'>
+										<svg class='correusable' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nreusable' aria-labelledby='notaREUSABLE'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaREUSABLE' class='text'><em lang="en"> REUSABLE</em></h2>
+								</div>
+							</div>
+						</div>
+						<div class='col'>
+							<div class='card'>
+								<div class='box'>
+									<div class='percent'>
+										<svg class='cormedia' role="img" aria-hidden='true' focusable='false'>
+											<circle cx='70' cy='70' r='70'></circle>
+											<circle cx='70' cy='70' r='70'></circle>
+										</svg>
+										<div class='number' id='nmedia' aria-labelledby='notaFinal'>
+											<h2>0<span></span></h2>
+										</div>
+									</div>
+									<h2 id='notaFinal' class='text' aria-hidden='true'>MÉDIA</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class='container'>
+				<div class='row gx-0 gy-0 row-cols-md-1 row-cols-md-1 row-cols-md-1 row-cols-md-4 row-cols-md-5'>
+					<div class='calculo'>
+						<span class='col'><label class="form-check-label" for="fr">Seção 1 FINDABLE:</label><input
+								class="form-control" type="text" id="fr" value='' readonly></span>
+						<span class='col'><label class="form-check-label" for="ar">Seção 2 ACCESSIBLE:</label><input
+								class="form-control" type="text" id="ar" value='' readonly></span>
+						<span class='col'><label class="form-check-label" for="ir">Seção 3 INTEROPERABLE:</label><input
+								class="form-control" type="text" id="ir" value='' readonly></span>
+						<span class='col'><label class="form-check-label" for="rr">Seção 4 REUSABLE:</label><input
+								class="form-control" type="text" id="rr" value='' readonly></span>
+						<span class='col'><label class="form-check-label" for="mr">MÉDIA FAIR: </label><input
+								class="form-control" type="text" id="mr" value='' readonly></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class='noPrint'>
+		<div class='footer'>
+
+		</div>
+	</footer>
+	<script>
+	</script>
+</body>
+
+</html>
